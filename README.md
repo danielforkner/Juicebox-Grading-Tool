@@ -1,12 +1,11 @@
 # Juicebox-Grading-Tool
 
 ## Steps
-1. Import endpointsToGrade.json into Thunderclient as a collection
-1. Add a JWT_SECRET variable to the .env
-2. Run either the register or login endpoint to generate a token
-3. Add the token as a local environemnt to Thunderclient
-4. Juicebox Grading Collection -> "Run all"
-
+1. Import `endpointsToGrade.json` into Thunder Client as a collection
+1. Add a `JWT_SECRET` variable to `.env`
+2. Run the login endpoint to generate a token
+3. Add the token as a local environemnt to Thunder Client
+4. Select "Run All" in the Juicebox Grading collection menu
 
 ## Feedback templates
 * All pass: "Great job with this project! Everything is working well and the code is clean. If you have any questions with the feedback or any of the material feel free to reach out over slack or schedule office hours."
